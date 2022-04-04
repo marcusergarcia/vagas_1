@@ -4,6 +4,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FormComponent } from './components/form/form.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './pages/home/home.component';
+import { MuralVagasComponent } from './components/mural-vagas/mural-vagas.component';
 
 
 
@@ -12,7 +13,8 @@ import { HomeComponent } from './pages/home/home.component';
     HeaderComponent,
     FormComponent,
     FooterComponent,
-    HomeComponent
+    HomeComponent,
+    MuralVagasComponent
   ],
   imports: [
     CommonModule
